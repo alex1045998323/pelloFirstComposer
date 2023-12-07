@@ -1,0 +1,21 @@
+{
+    "name": "cuipeifu/my-first-composer",
+    "description": "Pello测试学习",
+    "type": "l",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "license": "Apache",
+    "autoload": {
+        "psr-4": {
+            "MyFirstComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alex崔",
+            "email": "1045998323@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
